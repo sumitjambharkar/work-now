@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import { Route} from "react-router-dom";
 import Register from './components/Register';
@@ -11,6 +12,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <Footer/>
     <Route path="/" exact>
       <Home/>
     </Route>
