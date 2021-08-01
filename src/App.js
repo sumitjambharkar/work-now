@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Home/>
     <Route path="/" exact>
       <Home/>
     </Route>
